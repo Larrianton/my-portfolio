@@ -1,0 +1,19 @@
+.skillBlock {
+    width: 300px;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.skillIcon {
+    width:60px;
+    height: 60px;
+    background: white;
+
+}
+
+.skillDescription {
+
+}
