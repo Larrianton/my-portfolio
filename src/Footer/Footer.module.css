@@ -1,0 +1,22 @@
+.footerContainer {
+    height: 100px;
+    background-color: greenyellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.footerSocialNetworks {
+    min-width:200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: darkslategray;
+    margin-top:10px;
+}
+.footerSocialNetworks  div {
+    width:30px;
+    height: 30px;
+    background-color: red;
+
+}

@@ -1,0 +1,26 @@
+.workBlock {
+    width: 300px;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.workImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background: white;
+}
+
+.workImage a {
+    background-color: rosybrown;
+}
+
+.workDescription {
+    box-sizing: border-box;
+    padding: 20px;
+}
