@@ -1,0 +1,37 @@
+@mixin title-text ($heading-font-size) {
+  font-size: $heading-font-size;
+  margin-bottom: 60px;
+  color: #3deaa4;
+  line-height: 1;
+  &:after {
+    position:absolute;
+    content: url(https://ixtheme.netlify.app/optio/img/zigzag.svg);
+    top: 20px;
+    left: 0;
+  }
+}
+@mixin default-btn {
+  font-size: 15px;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 20px;
+  background-color: #3deaa4;
+  color: #000;
+  z-index: 1;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  overflow: hidden;
+}
+@mixin description-text {
+  font-size: 22px;
+  line-height: 1.5;
+  font-family:'Montserrat', sans-serif;
+  color: #545454;
+}
+@mixin flex-container {
+  position:relative;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}

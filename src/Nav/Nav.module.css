@@ -3,4 +3,9 @@
     width: 300px;
     display: flex;
     justify-content: space-between;
+    background-color: #111318;
+}
+.nav a {
+    text-decoration: none;
+    color:#fff;
 }

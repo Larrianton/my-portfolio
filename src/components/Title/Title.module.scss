@@ -1,0 +1,5 @@
+@import './src/common/sass/mixins';
+.title {
+    @include title-text (23px) ;
+
+}

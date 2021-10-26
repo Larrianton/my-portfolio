@@ -1,4 +1,16 @@
 .App {
- 
+    font-family: 'Montserrat', sans-serif;
+    color: #ccc;
+    overflow-x: hidden;
+    position: relative;
+    line-height: 1.5;
+    box-sizing: border-box;
+
+}
+.wrapperHeading::after {
+    position: absolute;
+    content: url(https://ixtheme.netlify.app/optio/img/zigzag.svg);
+    top: 35px;
+    left: 0;
 }
 

@@ -1,6 +1,8 @@
+.footerWrapper {
+    background-color: #111318;
+}
 .footerContainer {
     height: 100px;
-    background-color: greenyellow;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -11,7 +13,6 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: darkslategray;
     margin-top:10px;
 }
 .footerSocialNetworks  div {

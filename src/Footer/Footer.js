@@ -4,6 +4,7 @@ import styleContainer from "../common/styles/Container.module.css";
 
 export const Footer = () => {
     return (
+        <div className={style.footerWrapper}>
         <div className={`${styleContainer.container} ${style.footerContainer}`}>
             <span>Larionov Antoniy</span>
             <div className={style.footerSocialNetworks}>
@@ -12,6 +13,7 @@ export const Footer = () => {
                 <div><a>Inst</a></div>
             </div>
             <span>© All rights reserved</span>
+        </div>
         </div>
     );
 }
