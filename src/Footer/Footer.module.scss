@@ -1,0 +1,27 @@
+@import 'src/common/sass/mixins.scss';
+@import 'src/common/sass/variables';
+.footerWrapper {
+    background-color: #111318;
+    .footerContainer {
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .footerSocialNetworks {
+        min-width:200px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top:10px;
+        div {
+            width:30px;
+            height: 30px;
+            background-color:$base-background ;
+
+        }
+    }
+}
+
+

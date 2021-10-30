@@ -1,0 +1,19 @@
+@import 'src/common/sass/mixins.scss';
+@import 'src/common/sass/variables';
+.worksBlock {
+    min-height: 100vh;
+    background-color: $base-background;
+    .worksContainer {
+      h2 {
+       @include title-text($heading-font-size);
+      }
+      @include flex-container;
+        .works {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+    }
+}
+

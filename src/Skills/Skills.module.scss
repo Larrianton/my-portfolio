@@ -1,6 +1,8 @@
+@import 'src/common/sass/mixins.scss';
+@import 'src/common/sass/variables';
 .skillsBlock {
   min-height: 100vh;
-  background-color: #111318;
+  background-color: $base-background;
 
   .skillsContainer {
     position: relative;

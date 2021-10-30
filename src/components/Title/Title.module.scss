@@ -1,5 +1,6 @@
 @import './src/common/sass/mixins';
-.title {
-    @include title-text (23px) ;
+@import './src/common/sass/variables';
+.title h2 {
+    @include title-text ($heading-font-size) ;
 
 }

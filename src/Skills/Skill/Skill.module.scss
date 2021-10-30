@@ -1,0 +1,22 @@
+@import 'src/common/sass/mixins.scss';
+@import 'src/common/sass/variables.scss';
+.skillBlock {
+    width: 300px;
+    background-color: $base-background;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.skillIcon {
+    width: 80px;
+    height: 80px;
+    background: $base-background center;
+    background-size: cover;
+}
+
+.skillDescription {
+    box-sizing: border-box;
+    padding:10px;
+}

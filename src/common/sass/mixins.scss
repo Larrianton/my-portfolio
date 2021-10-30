@@ -3,7 +3,7 @@
   margin-bottom: 60px;
   color: #3deaa4;
   line-height: 1;
-  &:after {
+  &::after {
     position:absolute;
     content: url(https://ixtheme.netlify.app/optio/img/zigzag.svg);
     top: 20px;
@@ -23,15 +23,20 @@
   cursor: pointer;
   overflow: hidden;
 }
-@mixin description-text {
+@mixin description-text ($base-text-color) {
   font-size: 22px;
   line-height: 1.5;
   font-family:'Montserrat', sans-serif;
-  color: #545454;
+  color: $base-text-color;
 }
 @mixin flex-container {
   position:relative;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
+}
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

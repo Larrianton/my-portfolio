@@ -1,0 +1,14 @@
+@import 'src/common/sass/mixins.scss';
+@import 'src/common/sass/variables';
+.aboutMeBlock {
+  background-color: $base-background;
+  .aboutMeContainer {
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+   .aboutMeDescription{
+    @include description-text($base-text-color);
+   }
+  }
+}
